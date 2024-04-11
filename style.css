@@ -1,0 +1,509 @@
+/* Write some CSS below */
+
+/* Banner */
+
+
+  
+body {
+    margin : 0;
+    background-color: #E5EBFA;
+}
+
+
+/* LOGO - Banner */
+
+.logo {
+  position: absolute;
+  top: 20px; 
+  left: 50px; 
+}
+
+.logo img {
+  width: 150px; 
+  height: auto;
+}
+
+.banner { 
+    background-image : url('/Users/samadh/Desktop/landing-page-boilerplate/images/man.png.jpg'); 
+    color : white;
+    text-align: center;
+    padding: 150px 0;
+    background-position: center; 
+    background-size: cover;
+    height: 500px; 
+}
+
+.banner h1{
+    font-size: 64px;
+    Font-weight: 400;
+}
+
+.banner p {
+    font-size: 32px;
+    margin-bottom : 40px;
+    Font-size : 34px;
+}
+
+/* Buttons */
+
+a:hover {
+  background-color: #2A3EB2 ;
+}
+
+.btn-grn{
+    text-decoration: none;
+    border-radius : 4px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 10px 15px;
+    color :#2A3EB2; 
+    font-weight: 300; 
+    Font-size: 20px;
+    background-color: #CFEA5B; 
+    text-align:center;
+}
+
+.btn-green2 {
+    text-decoration: none;
+    border-radius : 40px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding : 15px 25px;
+    color :#2A3EB2; 
+    font-weight: 600; 
+    Font-size: 14px;
+    background-color:#CFEA5B; 
+    text-align:center; 
+
+}
+
+
+.btn-green {
+  text-decoration: none;
+  border-radius : 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding : 15px 25px;
+  color :#2A3EB2; 
+  font-weight: 600; 
+  Font-size: 14px;
+  background-color:#CFEA5B; 
+  text-align: auto;
+  margin-left: 250px;
+}
+
+
+/* LES DIVS */
+
+.container {
+    margin : 50px auto; 
+    width: 1000px;    
+}
+
+.card-white {
+    box-shadow: 0 10px 20px rgba(0, 0, 0.3, 0.2);
+    padding : 10px; 
+    margin : 0px; 
+}
+
+.card-white img {
+    border-radius: 5px;
+    width : 100%; 
+    object-fit: cover;
+}
+
+.cards {
+    display : grid ; 
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+.container-contact {
+  background-color: #E5EBFA;
+  margin: 20px auto;
+  padding: 0 5px;
+  padding-bottom: 0%;
+  margin: 10px auto;
+  color:#2A3EB2;
+  text-align: left;
+}
+
+
+.container-btn {
+  background-position: center; 
+  text-align: center;
+  background-size: cover;
+  padding: 20px 0;
+}
+
+
+/* Texts */
+
+#text-discover {
+  font-family: "Playfair Display", Vidaloka, serif;
+  color:#E5EBFA;
+  font-size: 20px;
+  line-height: 0.85;
+  display: block;
+  margin-top: 10;
+  margin-bottom: 10px;
+}
+
+h3 {
+  
+  color:#019ac7;
+  font-size: 24px;
+  line-height: 0.85;
+  display: block;
+  margin-top: 10;
+  font-family: "Nunito Sans", sans-serif;
+  font-family:"Playfair Display";
+  margin-left: 8px;
+
+}
+
+p{
+  color: #2A3EB2 ;
+  font-size: 16px;
+  Font-weight: 100;
+  font-family:"Playfair Display";
+  margin-left: 8px;
+}
+
+h1{
+  font-family: "Playfair Display", Vidaloka, serif;
+  color: #CFEA5B;
+  font-size: 8rem;
+  line-height: 0.85;
+  perspective: 500px;
+  display: block;
+  animation: show 0.01s forwards, pop-word 1.5s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  margin-top: 20;
+  
+}
+
+.text-h2 {
+    font-family:"Playfair Display", Vidaloka, serif; ;
+    color:#2A3EB2 ;
+    Font-size: 32px;
+    font-weight: 600;
+}
+
+
+
+.text-container, .button-container {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin: 10px 10px; 
+  }
+
+p, h2 {
+    margin: 0;
+  }
+
+  .text-container {
+    margin-right: 20px;
+  }
+
+  .text-newsletter {
+    color:#2A3EB2;
+    Font-size :32px;
+    font-weight: 600;
+    display: inline-block;
+    font-family:"Playfair Display";
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.text-news {
+  color:#2A3EB2;
+  Font-size :18px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-right: 80px;
+  
+}
+
+.text-prix {
+  color:#2A3EB2;
+  background-color: #CFEA5B;
+  display: inline-block;
+}
+.list-inline li {
+  display: inline;
+    }
+
+
+  
+/* Discover */
+.card-discover {
+  position: relative; 
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+  margin : 40px auto; 
+  width: 1000px;    
+}
+
+.card-discover img{
+width: 100%;
+border-radius: 10px;
+object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 20px; 
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+.overlay p {
+  margin: 2; 
+}
+
+.overlay button {
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.2);;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 10px 10px ;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.overlay button:hover {
+  background-color:#CFEA5B;
+}
+
+
+/* Card Reviews */
+
+.reviews-section {
+  background-image: url('/Users/samadh/Desktop/landing-page-boilerplate/images/girl.png.jpg');
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  background-position: center; 
+  background-size: cover;
+  height: 400px; 
+}
+
+.container-reviews {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  
+}
+
+.card-reviews {
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  margin: 0 ;
+}
+
+.review-text {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+  text-align: justify;
+}
+
+.review-details {
+  display: flex;
+  align-items: center;
+}
+
+.author-name {
+  margin-right: 10px;
+  font-weight: bold;
+  color:#E5EBFA;
+}
+
+.review-stars {
+  font-size: 18px;
+  color:#CFEA5B;
+}
+
+#text-h2reviews {
+  font-family:"Playfair Display", Vidaloka, serif; ;
+  color:#E5EBFA ;
+  Font-size: 34px;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+
+
+/*Newslleter */
+
+.newsletter-image {
+  width: 100%; 
+}
+
+.newsletter-image img {
+  width: 100%; 
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.newsletter-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-newsletter {
+  padding: 0px 0; 
+  margin: 0 auto;
+}
+
+
+/*Footer */
+
+
+.footer {
+  background-color: #051139;
+  color:hsl(223, 68%, 94%);
+  padding:80px;
+  text-align: center;
+  margin: 15px 10px;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -20px;
+}
+
+.footer-section {
+  width: calc(33.33% - 10px);
+  margin: 0px;
+  padding: 0px;
+  float: left; /* Aligner les sections côte à côte */
+}
+
+.footer-section h3 {
+  font-size: 14px;
+  text-align: justify;
+  padding: 0;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  text-align: justify;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+#text-fin {
+  color: #CFEA5B;
+  text-shadow:#E5EBFA;
+  margin-top: 30px;
+  margin-right: 0px;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+#text-follow {
+  color:#E5EBFA;
+  margin-bottom: 20px;
+}
+
+/* H1 - Title animation */
+
+:root {
+  --bar-scale-y: 0;
+  --sparkle-color: rgb(253 244 215 / 40%);
+}
+
+@keyframes pop-word {
+  to {
+    transform: rotateX(0);
+  }
+}
+
+@keyframes show {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes bar-scale {
+  to {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes sparkle {
+  0% {
+    transform: scale(0);
+  }
+
+  60% {
+    transform: scale(1) translate(4px, 1px) rotate(8deg);
+  }
+
+  100% {
+    transform: scale(0) translate(4px, 1px) rotate(8deg);
+  }
+}
+
+@keyframes shimmer {
+  to {
+    text-shadow: 0 0 8px red;
+  }
+}
+
+
+h1 {
+  color:#2A3EB2;
+  font-family: "Playfair Display", Vidaloka, serif;
+  font-size: 50rem;
+
+  line-height: 0.85;
+  perspective: 700px;
+}
+
+.word {
+  display: block;
+  animation: show 0.01s forwards, pop-word 1s forwards;
+  animation-timing-function: cubic-bezier(0.14, 1.23, 0.33, 1.16);
+  opacity: 0;
+  transform: rotateX(120deg);
+  transform-origin: 50% 100%;
+}
+
+.word:nth-of-type(2) {
+  padding: 0 2rem;
+  animation-delay: 1.5s;
+  color:#2A3EB2;
+}
+
+
+/* Tadaaaa! */
